@@ -16,9 +16,6 @@ my:
   xor dx, dx
   jmp fillStart
 
-fillStart:
-  jmp c
-
 fill:
   int 10h
   inc dx
@@ -33,7 +30,7 @@ nl:
   xor dx, dx
   jmp fill
 
-c:
+fillStart:
   dec al
   cmp al, 0
   je set16
@@ -41,4 +38,4 @@ c:
 
 set16:
   mov al, 16
-  jmp fill
+  jmp fill   
