@@ -1,2 +1,2 @@
 # Fill
-This project draws on screen.
+This program draws on screen.
