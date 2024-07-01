@@ -1,2 +1,2 @@
 # Fill
-This program draws on screen.
+This program fills screen.
